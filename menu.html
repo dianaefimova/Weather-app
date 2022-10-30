@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.0.2/echarts.min.js" integrity="sha512-t9GZbGKCH5MuYUFsq5AdrhllT0kdnc2fNMizKDgLXBBXgHP2dXxjRPOzYJauAXW9OXLlSYELUqWD30k7cb0Mkg==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+ <title>Weather App by Diana Efimova</title>
+</head>
+<body>
+    
+</head>
+<body>
+<menu>
+  <h4>MENU</h4>
+  <p><a div href="index.html">Info</a></p>
+  <p><a div href="main_table.html">Latest 30</a></p>
+  <p><a div href="wind_direction.html">Wind Direction table</a></p>
+  <p><a div href="temperature.html">Temperature table</a></p>
+  <p><a div style="text-decoration: double;" href="menu.html">ALL MEASUREMENTS</a></p>
+
+</menu>
+
+<!-- Bringing back Temperature and Wind identities -->
+
+    <div id="Tab2" class="content1">
+    <div class="dropdown">
+    <button onclick="dropMenu()" class="dropbtn"><span id="button"></span></button>
+    </div>
+    </div>
+
+    <div id="Tab3" class="content2">
+    <div class="dropdown2">
+    <button onclick="dropMenu2()" class="drop2btn"><span id="button2">Select period</span></button>
+    </div>
+    </div>
+
+    <div id="page4" class="content">
+    <h2 id="P4">All measurements</h2>
+    <div class="dropdown3">
+        <button onclick="dropMenu3()" class="drop3btn"><span id="button3">Select measurement</span></button>
+        <div id="myDropdown3" class="dropdown-content3">
+        <a class="item3"  href="#" onclick="getData(4, 1, 0)">Temperature</a>
+        <a class="item3" href="#" onclick="getData(4, 2, 0)">Wind direction</a>
+        <a class="item3" href="#" onclick="getData(4, 3, 0)">Wind speed</a>
+        <a class="item3" href="#" onclick="getData(4, 4, 0)">Rain</a>
+        <a class="item3" href="#" onclick="getData(4, 5, 0)">Light</a>
+    </div>
+    </div>
+    <div class="dropdown4">
+        <button onclick="dropMenu4()" class="drop4btn"><span id="button4">Select period</span></button>
+        <div id="myDropdown4" class="dropdown-content4">
+        <a class="item4"  href="#" onclick="getData(4, 0, 1)">Now</a>
+        <a class="item4" href="#" onclick="getData(4, 0, 2)">24 hours</a>
+        <a class="item4" href="#" onclick="getData(4, 0, 3)">48 hours</a>
+        <a class="item4" href="#" onclick="getData(4, 0, 4)">72 hours</a>
+        <a class="item4" href="#" onclick="getData(4, 0, 5)">1 week</a>
+</div>
+</div>
+            
+    <div class="flex-container">
+    <div id="table4"></div>
+    <div id="graph4"style="width:60%; height:600px; position: absolute;
+    top: 20%;
+    left: 45%;"></div>
+</div>
+    </div>
+    <script src="menu.js" defer></script>
+</body>
+</html>

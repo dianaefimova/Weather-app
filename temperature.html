@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.0.2/echarts.min.js" integrity="sha512-t9GZbGKCH5MuYUFsq5AdrhllT0kdnc2fNMizKDgLXBBXgHP2dXxjRPOzYJauAXW9OXLlSYELUqWD30k7cb0Mkg==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
+<title>Weather App by Diana Efimova</title>
+
+  </head>
+  <body>
+      
+</head>
+<body>
+  <menu>
+    <h4>MENU</h4>
+    <p><a div href="index.html">Info</a></p>
+    <p><a div href="main_table.html">Latest 30</a></p>
+    <p><a div href="wind_direction.html">Wind Direction table</a></p>
+    <p><a div href="menu.html">All measurements</a></p>
+    <p><a div style="text-decoration: double;" href="temperature.html">TEMPERATURE MEASUREMENTS</a></p>
+
+</menu>
+    <div id="page2" class="content1">
+    <h2>Temperature measurements</h2>
+
+    <div class="dropdown">
+    <button onclick="dropMenu()"class="dropbtn"><span id="button">Select period</span></button>
+   <div id="myDropdown" class="dropdown-content">
+    <a class="item" id="default" role="menuitem" href="#" onclick="getData(2, 1, 1)">Now</a>
+    <a class="item" role="menuitem" href="#" onclick="getData(2, 1, 2)">24 hours</a>
+    <a class="item" role="menuitem" href="#" onclick="getData(2, 1, 3)">48 hours</a>
+    <a class="item" role="menuitem" href="#" onclick="getData(2, 1, 4)">72 hours</a>
+</div>
+</div>
+      
+<div class="flex-container">
+<div id="table2"></div>
+<div id="graph2" style="width:60%; height:600px; position: absolute;
+  top: 20%;
+  left: 45%;"></div>
+</div>
+</div>  
+<script src="temperature.js" defer></script> 
+</body>
+</html>

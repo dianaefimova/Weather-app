@@ -1,0 +1,141 @@
+body {
+    background-image:url('https://www.edunation.co/wp-content/uploads/2021/05/IMG_1876.jpg') ;
+    color: darkslategray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+caption {
+  background-color:darkcyan;
+  color:burlywood;
+  
+}
+
+table {
+  background-image: linear-gradient(lightslategrey, cornflowerblue);
+  color:beige;
+  border: 1px solid black;
+  position: absolute;
+  width:45%;
+  margin-bottom: 10px;
+  margin-top: 30px; 
+     
+}
+
+th, td {
+padding: 2px;
+border: 1px solid black;
+    
+}
+
+td {
+    text-align: center;
+}
+h4{
+  text-align: center;
+  color:darkslategrey;
+ 
+}
+
+header {
+  text-align: center;
+  font-size: x-large;
+  
+}
+
+sup {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+  font-size: xx-small;
+}
+button {
+  margin-left: 0px;
+  width: 100px;
+  height: 25px;
+  background-color: rgb(109, 189, 230);
+  border: 1px solid  rgb(5, 111, 182);
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+
+button:active {
+  transform:translate(1px, 1px);
+}
+.dropbtn, .drop2btn, .drop3btn, .drop4btn {
+  padding-top: 0px;
+  width: 180px;
+  height: 30px;
+  background-color:maroon;
+  color: white;
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+   margin-bottom: 10px;
+  margin-top: 35px;
+}
+button:focus {outline:0;}
+
+.dropdown, .dropdown2, .dropdown3, .dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 180px;
+  overflow: auto;
+  z-index: 1;
+}
+
+
+.dropdown-content a, .dropdown-content2 a, .dropdown-content3 a, .dropdown-content4 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {display: block;}
+menu {
+  background-color:darkgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 30px 0 darkslategray;
+    margin-top: 5px;
+}
+menu * {
+  display: inline;
+}
+menu p {
+  margin: 20px;
+}
+menu p a {
+  color: darkslategray;
+  text-decoration: none;
+  
+}
+a {
+  color:beige ;
+  
+}
+main {
+  text-align: justify;
+  margin-top: 120px;
+}
+
+p {
+  text-align: center;
+  font-size: medium;
+  text-decoration: none;
+}
