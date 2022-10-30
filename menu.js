@@ -1,4 +1,3 @@
-//Weather app by Diana Efimova
 //All links:
 const Source = 'http://webapi19sa-1.course.tamk.cloud/v1/weather';
 const Source2 = 'http://webapi19sa-1.course.tamk.cloud/v1/weather/temperature';

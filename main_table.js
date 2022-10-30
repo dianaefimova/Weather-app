@@ -1,4 +1,3 @@
-//Weather app by Diana Efimova 
 const Source = 'http://webapi19sa-1.course.tamk.cloud/v1/weather';
 function jsonToHtml (dataObj) {
     let content = `<div id = "table">
