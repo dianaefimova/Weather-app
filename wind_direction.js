@@ -1,3 +1,4 @@
+// Weather app by Diana Efimova 
 const Source3 = 'http://webapi19sa-1.course.tamk.cloud/v1/weather/wind_direction';
 
 //Opening "Now" element by default

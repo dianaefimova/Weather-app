@@ -1,3 +1,4 @@
+//Weather app by Diana Efimova 
 const Source2 = 'http://webapi19sa-1.course.tamk.cloud/v1/weather/temperature';
 
 //Opening "Now" element by default
